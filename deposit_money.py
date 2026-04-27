@@ -5,7 +5,7 @@ from storage import load_data, save_data
 
 def deposit_money(amount):
     if amount <= 0:
-        print("\nDeposit amount must be greater than 0.")
+        print("\nDeposit amount must be greater than 0")
         return
 
     data = load_data()
